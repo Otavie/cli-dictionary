@@ -1,0 +1,174 @@
+{
+  "words": [
+    {
+      "word": "git init",
+      "title": "git init",
+      "meaning": "Initialize a Git repository in the current directory.",
+      "usage": "git init",
+      "usage_more": ""
+    },
+    {
+      "word": "init",
+      "title": "git init",
+      "meaning": "Initialize a Git repository in the current directory.",
+      "usage": "git init",
+      "usage_more": ""
+    },
+    {
+      "word": "git clone",
+      "title": "git clone",
+      "meaning": "Clone a remote repository to your local machine.",
+      "usage": "git clone <name of repository>",
+      "usage_more": ""
+    },
+    {
+      "word": "clone",
+      "title": "git clone",
+      "meaning": "Clone a remote repository to your local machine. The clone commands allows you to have a copy of your remote repo in your local machine",
+      "usage": "git clone <name of repository>",
+      "usage_more": ""
+    },
+    {
+      "word": "repository",
+      "title": "repository",
+      "meaning": "A repository in Git is a collection of files and the complete history of changes to those files. A repository is usually called repo. A repo can be:\n# A remote repo or\n# A local repo\nA remote repo is the repo in your github account while local repo is the repo in your local system",
+      "usage": "Not Applicable!",
+      "usage_more": ""
+    },
+    {
+      "word": "repo",
+      "title": "repository",
+      "meaning": "A repository in Git is a collection of files and the complete history of changes to those files. A repository is usually called repo. A repo can be:\n# A remote repo or\n# A local repo\nA remote repo is the repo in your github account while local repo is the repo in your local system",
+      "usage": "Not Applicable!",
+      "usage_more": ""
+    },
+    {
+      "word": "git",
+      "title": "git",
+      "meaning": "Git is a distributed version control system that helps manage software development projects.",
+      "usage": "git is used in front of all git commands!",
+      "usage_more": ""
+    },
+    {
+      "word": "git pull",
+      "title": "git pull",
+      "meaning": "Pull changes from a remote repository to the local repository.",
+      "usage": "git pull [remote-repository] [branch-name]",
+      "usage_more": "Where [remote-repository] is the name of the remote repository you want to pull changes from and [branch-name] is the name of the branch you want to pull changes from. If the remote repository and branch name are not specified, git pull will default to the current repository's default remote and branch."
+    },
+    {
+      "word": "pull",
+      "title": "git pull",
+      "meaning": "Pull changes from a remote repository to the local repository.",
+      "usage": "git pull [remote-repository] [branch-name]",
+      "usage_more": "Where [remote-repository] is the name of the remote repository you want to pull changes from and [branch-name] is the name of the branch you want to pull changes from. If the remote repository and branch name are not specified, git pull will default to the current repository's default remote and branch."
+    },
+    {
+      "word": "push",
+      "title": "git push",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git push <remote> <branch>",
+      "usage_more": "Where <remote> is the name of the remote repository and <branch> is the name of the branch that you want to push to the remote repository."
+    },
+    {
+      "word": "git push",
+      "title": "git push",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git push <remote> <branch>",
+      "usage_more": "Where <remote> is the name of the remote repository and <branch> is the name of the branch that you want to push to the remote repository."
+    },
+    {
+      "word": "git commit",
+      "title": "git commit",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git commit -m 'commit message'",
+      "usage_more": "Where -m option is used to specify the commit message, which should be a brief description of the changes made in the commit."
+    },
+    {
+      "word": "commit",
+      "title": "git commit",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git commit -m 'commit message'",
+      "usage_more": "Where -m option is used to specify the commit message, which should be a brief description of the changes made in the commit."
+    },
+    {
+      "word": "git status",
+      "title": "git status",
+      "meaning": "Show the status of files in the working tree and the index.",
+      "usage": "git status",
+      "usage_more": ""
+    },
+    {
+      "word": "status",
+      "title": "git status",
+      "meaning": "Show the status of files in the working tree and the index.",
+      "usage": "git status",
+      "usage_more": ""
+    },
+    {
+      "word": "add",
+      "title": "git add",
+      "meaning": "Add a file to the Git index (staging area).",
+      "usage": "git add <name of file>",
+      "usage_more": "git add . can be used to stage all files at once"
+    },
+    {
+      "word": "git add",
+      "title": "git add",
+      "meaning": "Add a file to the Git index (staging area).",
+      "usage": "git add <name of file>",
+      "usage_more": "git add . can be used to stage all files at once"
+    },
+    {
+      "word": "git checkout <branch>",
+      "title": "git checkout <branch>",
+      "meaning": "Switches to a different branch.",
+      "usage": "git checkout <branch>",
+      "usage_more": ""
+    },
+    {
+      "word": "git checkout <branch>",
+      "title": "git checkout <branch>",
+      "meaning": "Switches to a different branch.",
+      "usage": "git merge <branch>",
+      "usage_more": ""
+    },
+    {
+      "word": "git checkout master",
+      "title": "git checkout master",
+      "meaning": "Switch back to the master branch.",
+      "usage": "git checkout master",
+      "usage_more": ""
+    },
+    {
+      "word": "setup",
+      "title": "What kind of setup?",
+      "meaning": "If you are looking for git setup search 'git setup'. If you are looking for emacs setup search for 'emacs setup'",
+      "usage": "",
+      "usage_more": ""
+    },
+    {
+      "word": "set up",
+      "title": "What kind of setup?",
+      "meaning": "If you are looking for git setup search 'git setup'. If you are looking for emacs setup search for 'emacs setup'",
+      "usage": "",
+      "usage_more": ""
+    },
+    {
+      "word": "branch",
+      "title": "git branch",
+      "meaning": "# git branch - List all branches in the repository\n# git branch [branch-name] - Create a new branch with the specified name\n# git checkout [branch-name] - Switch to the specified branch\n# git checkout -b [branch-name] - Create a new branch and switch to it in one command\n# git merge [branch-name] - Merge the specified branch into the current branch\n# git branch -d [branch-name] - Delete the specified branch\n# git branch -m [new-branch-name] - Rename the current branch to a new name\n# git branch --no-merged - Show a list of branches that haven't been merged into the current branch\n# git branch -a - List all branches in the repository, including remote branches",
+      "usage": "As shown above",
+      "usage_more": ""
+    },
+    {
+      "word": "git branch",
+      "title": "git branch",
+      "meaning": "# git branch - List all branches in the repository\n# git branch [branch-name] - Create a new branch with the specified name\n# git checkout [branch-name] - Switch to the specified branch\n# git checkout -b [branch-name] - Create a new branch and switch to it in one command\n# git merge [branch-name] - Merge the specified branch into the current branch\n# git branch -d [branch-name] - Delete the specified branch\n# git branch -m [new-branch-name] - Rename the current branch to a new name\n# git branch --no-merged - Show a list of branches that haven't been merged into the current branch\n# git branch -a - List all branches in the repository, including remote branches",
+      "usage": "As shown above",
+      "usage_more": ""
+    }
+  
+  
+  ]
+}

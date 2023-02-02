@@ -1,0 +1,194 @@
+{
+    "words": [
+      {
+        "word": "start",
+        "title": "Start emacs",
+        "meaning": "Start emacs",
+        "usage": "emacs",
+        "usage_more": ""
+      }, 
+      {
+        "word": "start emacs",
+        "title": "Start emacs",
+        "meaning": "Start emacs",
+        "usage": "emacs",
+        "usage_more": ""
+      }, 
+      {
+        "word": "save",
+        "title": "Save a file",
+        "meaning": "Save the current file.",
+        "usage": "C-x C-s",
+        "usage_more": ""
+      }, 
+      {
+        "word": "save file",
+        "title": "Save a file",
+        "meaning": "Save the current file.",
+        "usage": "C-x C-s",
+        "usage_more": ""
+      },
+      {
+        "word": "save file as",
+        "title": "Save a file as",
+        "meaning": "Save the current file as.",
+        "usage": "C-w C-w",
+        "usage_more": ""
+      },
+      {
+        "word": "search forward",
+        "title": "Search forward",
+        "meaning": "Search forward.",
+        "usage": "C-s",
+        "usage_more": ""
+      },
+      {
+        "word": "forward",
+        "title": "Search forward",
+        "meaning": "Search forward.",
+        "usage": "C-s",
+        "usage_more": ""
+      },
+      {
+        "word": "leaving emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "leaving",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "leave",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "leave emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "quitting emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "quitting",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "quit emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "quit",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "exiting emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "exiting",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "exit emacs",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "exit",
+        "title": "Leaving/Quitting/Exiting emacs",
+        "meaning": "To exit/quit emacs",
+        "usage": "C-x C-c - exit emacs \nC-z - suspend emacs in the terminal (iconify emacs)",
+        "usage_more": ""
+      },
+      {
+        "word": "buffer",
+        "title": "Buffer",
+        "meaning": "A buffer is an area of memory used to store the text of a file being edited. \nWhen you open a file in Emacs, a buffer is created to hold the contents of the file.",
+        "usage": "C-x b - allows you to switch between buffer and displays a list of all open buffers, also allowing you to select the one to switch to.",
+        "usage_more": ""
+      },
+      {
+        "word": "cut",
+        "title": "Cut",
+        "meaning": "To cut a file.",
+        "usage": "C-w",
+        "usage_more": ""
+      },
+      {
+        "word": "copy",
+        "title": "Copy",
+        "meaning": "To copy a file.",
+        "usage": "M-w",
+        "usage_more": ""
+      },
+      {
+        "word": "paste",
+        "title": "Paste",
+        "meaning": "To paste a file.",
+        "usage": "C-y",
+        "usage_more": ""
+      },
+      {
+        "word": "paste",
+        "title": "Paste",
+        "meaning": "To paste a file.",
+        "usage": "C-y",
+        "usage_more": ""
+      },
+      {
+        "word": "undo",
+        "title": "Undo",
+        "meaning": "To undo an action.",
+        "usage": "C-/",
+        "usage_more": ""
+      },
+      {
+        "word": "redo",
+        "title": "Redo",
+        "meaning": "To redo an action.",
+        "usage": "C-g",
+        "usage_more": ""
+      },
+      {
+        "word": "quit and save",
+        "title": "Quit and Save",
+        "meaning": "This will save all unsaved changes and then quit the program.",
+        "usage": "M-x save-buffers-kill-emacs",
+        "usage_more": ""
+      }
+      
+    ]
+}

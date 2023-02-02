@@ -1,0 +1,111 @@
+{
+  "words": [
+    {
+      "word": "insert",
+      "title": "Insert mode",
+      "meaning": "To insert text before the cursor\nIt is also used to enter Insert Mode",
+      "usage": "i",
+      "usage_more": "Type i and press enter"
+    },
+    {
+      "word": "command",
+      "title": "Command mode",
+      "meaning": "Used to enter Insert Mode",
+      "usage": "ESC",
+      "usage_more": "Just press the escape key on the key"
+    },
+    {
+      "word": "cutting",
+      "title": "Cutting",
+      "meaning": "In normal mode, d is the key for deleting (cutting) text. Here are some other helpful deleting commands:",
+      "usage": "# dd - Delete (cut) the current line, including the newline character.\n# 3dd - Delete (cut) three lines, starting from the line where the cursor is positioned.\n# d$ - Delete (cut) everything from the cursor to the end of the line.",
+      "usage_more": "The movement commands that apply for yanking are also valid for deleting. For example dw, deletes to the start of the next word, and d^ deletes everything from the cursor to the start of the line."
+    },  
+    {
+      "word": "deleting",
+      "title": "Cutting",
+      "meaning": "In normal mode, d is the key for deleting (cutting) text. Here are some other helpful deleting commands:",
+      "usage": "# dd - Delete (cut) the current line, including the newline character.\n# 3dd - Delete (cut) three lines, starting from the line where the cursor is positioned.\n# d$ - Delete (cut) everything from the cursor to the end of the line.",
+      "usage_more": "The movement commands that apply for yanking are also valid for deleting. For example dw, deletes to the start of the next word, and d^ deletes everything from the cursor to the start of the line."
+    },
+    {
+      "word": "cut",
+      "title": "Cutting",
+      "meaning": "In normal mode, d is the key for deleting (cutting) text. Here are some other helpful deleting commands:",
+      "usage": "# dd - Delete (cut) the current line, including the newline character.\n# 3dd - Delete (cut) three lines, starting from the line where the cursor is positioned.\n# d$ - Delete (cut) everything from the cursor to the end of the line.",
+      "usage_more": "The movement commands that apply for yanking are also valid for deleting. For example dw, deletes to the start of the next word, and d^ deletes everything from the cursor to the start of the line."
+    },  
+    {
+      "word": "delete",
+      "title": "Cutting",
+      "meaning": "In normal mode, d is the key for deleting (cutting) text. Here are some other helpful deleting commands:",
+      "usage": "# dd - Delete (cut) the current line, including the newline character.\n# 3dd - Delete (cut) three lines, starting from the line where the cursor is positioned.\n# d$ - Delete (cut) everything from the cursor to the end of the line.",
+      "usage_more": "The movement commands that apply for yanking are also valid for deleting. For example dw, deletes to the start of the next word, and d^ deletes everything from the cursor to the start of the line."
+    },
+    {
+      "word": "paste",
+      "title": "Paste",
+      "meaning": "To paste the lines in the buffer into the text after the current line.",
+      "usage": "p",
+      "usage_more": ""
+    },
+    {
+      "word": "undo",
+      "title": "Undo",
+      "meaning": "To undo what you just did.",
+      "usage": "u",
+      "usage_more": ""
+    },
+    {
+      "word": "copy",
+      "title": "Copy",
+      "meaning": "To copy text, place the cursor in the desired location and press the y key followed by the movement command. Below are some helpful yanking commands:",
+      "usage": "yy - Yank (copy) the current line, including the newline character.\n# 3yy - Yank (copy) three lines, starting from the line where the cursor is positioned.\n# y$ - Yank (copy) everything from the cursor to the end of the line.\n# y^ - Yank (copy) everything from the cursor to the start of the line.\n# yw - Yank (copy) to the start of the next word.\n# yiw – Yank (copy) the current word.\n# y% - Yank (copy) to the matching character. By default supported pairs are (), {}, and []. Useful to copy text between matching brackets.",
+      "usage_more": ""
+    },
+    {
+      "word": "copying",
+      "title": "Copy",
+      "meaning": "To copy text, place the cursor in the desired location and press the y key followed by the movement command. Below are some helpful yanking commands:",
+      "usage": "yy - Yank (copy) the current line, including the newline character.\n# 3yy - Yank (copy) three lines, starting from the line where the cursor is positioned.\n# y$ - Yank (copy) everything from the cursor to the end of the line.\n# y^ - Yank (copy) everything from the cursor to the start of the line.\n# yw - Yank (copy) to the start of the next word.\n# yiw – Yank (copy) the current word.\n# y% - Yank (copy) to the matching character. By default supported pairs are (), {}, and []. Useful to copy text between matching brackets.",
+      "usage_more": ""
+    },
+    {
+      "word": "quit",
+      "title": "Quit/Exiting/Leaving",
+      "meaning": "Different quit commands in vi",
+      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "usage_more": ""
+    },
+    {
+      "word": "leave",
+      "title": "Quit/Exiting/Leaving",
+      "meaning": "Different quit commands in vi",
+      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "usage_more": ""
+    },
+    {
+      "word": "exit",
+      "title": "Quit/Exiting/Leaving",
+      "meaning": "Different quit commands in vi",
+      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "usage_more": ""
+    },
+    {
+      "word": "start of line",
+      "title": "Move cursor to the start of the line",
+      "meaning": "To move the cursor to the start of the current line.",
+      "usage": "0",
+      "usage_more": ""
+    },
+    {
+      "word": "end of line",
+      "title": "Move cursor to the end of the line",
+      "meaning": "To move the cursor to the end of the current line.",
+      "usage": "$",
+      "usage_more": ""
+    }
+      
+  
+  ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Commands</title>
+    <link rel="shortcut icon" href="cli_logo_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu_inside">
+                <img class="cli-logo" src="cli_logo.png" alt="CLI Logo">
+                <h1>cli dictionary</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>&lt;git /&gt;</li>
+                    <li>&lt;emacs /&gt;</li>
+                    <li>&lt;vi /&gt;</li>
+                </ul>
+            </nav>
+
+            <button id="mobile-toggle-button">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </button>
+
+            <nav class="mobile-nav">
+                <ul>
+                    <li>&lt;git /&gt;</li>
+                    <li>&lt;emacs /&gt;</li>
+                    <li>&lt;vi /&gt;</li>
+                </ul>
+            </nav>
+
+            <div class="toggle-button" id="toggle-button">
+                <span class="toggle-icon"></span>
+            </div>
+        </div>
+        <div class="section-container">
+            <div class="git-section active">
+                <div class="git-heading">
+                    <h1>git dictionary!</h1>
+                </div>
+        
+                <div class="git-search-box">
+                    <input type="text" placeholder="Search for git commands" id="git-search-input" class="search-input">
+                    <button class="git-search-command search-command ddark-mode" onclick="searchGitCommand()">Search</button>    
+                </div>
+        
+                <div class="git-details details">
+                    <h4 class="git-word"></h4>
+                    <p id="git-word-meaning"></p>
+                    <h4 class="git-usage"></h4>
+                    <p class="git-usage-details"></p>
+                    <p class="git-usage-details-more"></p>
+                </div>
+            </div>
+
+            <div class="emacs-section">
+                <div class="emacs-heading">
+                    <h1>emacs dictionary!</h1>
+                </div>
+        
+                <div class="emacs-search-box">
+                    <input type="text" placeholder="Search for emacs command" id="emacs-search-input" class="search-input">
+                    <button class="emacs-search-command search-command" onclick="searchEmacsCommand()">Search</button>    
+                </div>
+        
+                <div class="emacs-details details">
+                    <h4 class="emacs-word"></h4>
+                    <p id="emacs-word-meaning"></p>
+                    <h4 class="emacs-usage"></h4>
+                    <p class="emacs-usage-details"></p>
+                    <p class="emacs-usage-details-more"></p>
+                    <p class="ctrl_alt"></p>
+                </div>
+            </div>
+
+            <div class="vi-section">
+                <div class="vi-heading">
+                    <h1>vi dictionary!</h1>
+                </div>
+        
+                <div class="vi-search-box">
+                    <input type="text" placeholder="Search for vi command" id="vi-search-input" class="search-input">
+                    <button class="vi-search-command search-command" onclick="searchViCommand()">Search</button>    
+                </div>
+        
+                <div class="vi-details details">
+                    <h4 class="vi-word"></h4>
+                    <p id="vi-word-meaning"></p>
+                    <h4 class="vi-usage"></h4>
+                    <p class="vi-usage-details"></p>
+                    <p class="vi-usage-details-more"></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

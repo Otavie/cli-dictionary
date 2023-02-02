@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&family=Satisfy&family=Supermercado+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Kurenaido&display=swap");
+:root {
+  --ff-fancy-heading: 'Satisfy', cursive;
+  --ff-main-heading: 'Ubuntu', sans-serif;
+  --ff-header: 'Supermercado One', cursive;
+  --ff-body: 'Poppins', sans-serif;
+  --ff-others: 'Zen Kurenaido', sans-serif;
+  --git-color: #e63a17;
+  --git-bg-color: #F1502F;
+  --emacs-color: #4643ac;
+  --emacs-bg-color: #5E5BA8;
+  --vi-color: #00743e;
+  --vi-bg-color: #018749;
+}
+
+*,
+html,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #f2eeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: background-color 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out;
+  overflow-x: hidden;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: calc(10vw - 12px);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: -webkit-transform ease-in-out 1000ms;
+  transition: -webkit-transform ease-in-out 1000ms;
+  transition: transform ease-in-out 1000ms;
+  transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+}
+
+nav ul li {
+  list-style: none;
+  font-family: "Oxanium", cursive;
+  font-weight: 600;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  -webkit-transition: border 750ms ease-in-out, color 750ms ease-in-out;
+  transition: border 750ms ease-in-out, color 750ms ease-in-out;
+}
+
+nav ul li:hover,
+nav ul li:active {
+  border: 1px solid #b4a4a4;
+  color: #b4a4a4;
+}
+
+nav.mobile-nav {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
+.container.dark-mode {
+  background-color: #0e0d0d;
+}
+
+.details {
+  -webkit-transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, -webkit-box-shadow 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, -webkit-box-shadow 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, box-shadow 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, box-shadow 1000ms ease-in-out, -webkit-box-shadow 1000ms ease-in-out;
+}
+
+.details.dark-mode {
+  background-color: #0e0d0d;
+  background-color: #121212;
+  color: #f2eeee;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out;
+}
+
+input.dark-mode {
+  background-color: #121212;
+  color: #f2eeee;
+}
+
+.search-command.dark-mode {
+  background-color: #0e0d0d;
+  background-color: #121212;
+  text-shadow: none;
+  color: #f2eeee;
+}
+
+.search-command.dark-mode:hover {
+  background-color: #121212;
+  color: #b4b4b4;
+}
+
+.cli-logo {
+  height: 45px;
+  width: 45px;
+}
+
+.menu {
+  background-color: var(--git-bg-color);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  -webkit-box-shadow: 0px 1px 10px black;
+          box-shadow: 0px 1px 10px black;
+}
+
+.menu_inside {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu_inside h1 {
+  margin-left: 20px;
+  font-family: var(--ff-fancy-heading);
+  font-family: var(--ff-main-heading);
+  font-style: italic;
+}
+
+.menu_inside {
+  position: absolute;
+  left: 10vw;
+}
+
+.section-container {
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+  border-radius: 15px;
+  margin-bottom: 50px;
+  -webkit-transition: -webkit-box-shadow ease-in-out 1000ms;
+  transition: -webkit-box-shadow ease-in-out 1000ms;
+  transition: box-shadow ease-in-out 1000ms;
+  transition: box-shadow ease-in-out 1000ms, -webkit-box-shadow ease-in-out 1000ms;
+}
+
+.emacs-section,
+.vi-section,
+.git-section {
+  border-radius: 15px;
+}
+
+.git-section {
+  background-color: var(--git-bg-color);
+}
+
+.emacs-section {
+  background-color: var(--emacs-bg-color);
+}
+
+.vi-section {
+  background-color: var(--vi-bg-color);
+}
+
+.section-container.dark-mode {
+  -webkit-box-shadow: 0px 0px 3px #ff4949;
+          box-shadow: 0px 0px 3px #ff4949;
+}
+
+.git-heading {
+  background-color: var(--git-bg-color);
+}
+
+.git-heading h1 {
+  color: var(--git-color);
+}
+
+.emacs-heading {
+  background-color: var(--emacs-bg-color);
+}
+
+.emacs-heading h1 {
+  color: var(--emacs-color);
+}
+
+.vi-heading {
+  background-color: var(--vi-bg-color);
+}
+
+.vi-heading h1 {
+  color: var(--vi-color);
+}
+
+.git-heading,
+.emacs-heading,
+.vi-heading {
+  width: inherit;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+  padding: 40px 0 140px;
+}
+
+.git-heading h1,
+.emacs-heading h1,
+.vi-heading h1 {
+  font-size: 40px;
+  font-family: var(--ff-fancy-heading);
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  margin-top: -10px;
+}
+
+.git-search-box,
+.emacs-search-box,
+.vi-search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -120px;
+}
+
+input {
+  width: 70%;
+  padding: 12px;
+  border-radius: 6.5px;
+  outline: none;
+  font-size: 1.05rem;
+}
+
+button.git-search-command,
+button.emacs-search-command,
+button.vi-search-command {
+  margin: 13px 0;
+  padding: 17px 80px;
+  font-family: var(--ff-main-heading);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #f2eeee;
+  text-shadow: 1px 1px 1px white;
+}
+
+button.git-search-command {
+  color: var(--git-color);
+  border-bottom: 1px solid var(--git-color);
+}
+
+button.emacs-search-command {
+  color: var(--emacs-color);
+  border-bottom: 1px solid var(--emacs-color);
+}
+
+button.vi-search-command {
+  color: var(--vi-color);
+  border-bottom: 1px solid var(--vi-color);
+}
+
+button.git-search-command,
+button.emacs-search-command,
+button.vi-search-command {
+  -webkit-transition: color ease-in-out 750ms, background ease-in-out 750ms;
+  transition: color ease-in-out 750ms, background ease-in-out 750ms;
+}
+
+button.git-search-command:hover,
+button.emacs-search-command:hover,
+button.vi-search-command:hover {
+  color: #000;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.git-details,
+.emacs-details,
+.vi-details {
+  background-color: white;
+  width: 100%;
+  padding: 80px 100px 40px 100px;
+  border-radius: 15px;
+  margin-top: -25px;
+  font-family: var(--ff-body);
+}
+
+.git-word,
+.git-usage,
+.emacs-word,
+.emacs-usage,
+.vi-word,
+.vi-usage {
+  font-family: var(--ff-main-heading);
+  font-family: "Oxanium", cursive;
+  margin: -30px 20px 20px 0;
+  font-weight: 700;
+}
+
+#git-word-meaning,
+#emacs-word-meaning,
+#vi-word-meaning {
+  line-height: 32px;
+}
+
+.git-usage,
+.emacs-usage,
+.vi-usage {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.git-usage-details,
+.emacs-usage-details,
+.vi-usage-details {
+  margin-bottom: 10px;
+  font-style: italic;
+  line-height: 32px;
+}
+
+.git-usage-details {
+  color: var(--git-color);
+}
+
+.git-usage-details.dark-mode {
+  color: #ff5e00;
+}
+
+.emacs-usage-details {
+  color: var(--emacs-color);
+}
+
+.emacs-usage-details.dark-mode {
+  color: #8e8be0;
+}
+
+.vi-usage-details {
+  color: var(--vi-color);
+}
+
+.vi-usage-details.dark-mode {
+  color: #38a842;
+}
+
+.git-usage-details-more,
+.emacs-usage-details-more,
+.vi-usage-details-more {
+  line-height: 30px;
+}
+
+.git-section.active {
+  display: block;
+}
+
+.git-section,
+.emacs-section,
+.vi-section {
+  display: none;
+}
+
+.git-section.show,
+.emacs-section.show,
+.vi-section.show {
+  display: block;
+}
+
+.ctrl_alt {
+  color: var(--git-color);
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.85rem;
+  -webkit-transition: color ease-in-out 1000ms;
+  transition: color ease-in-out 1000ms;
+}
+
+.ctrl_alt.dark-mode {
+  color: #a79e9e;
+}
+
+.toggle-button {
+  width: 45px;
+  height: 25px;
+  background-color: #000;
+  cursor: pointer;
+  right: 28px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 22.5px;
+  -webkit-box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.4);
+  -webkit-transition: background-color 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out;
+}
+
+.toggle-button .toggle-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1.5px;
+  position: absolute;
+  left: 2px;
+  -webkit-transition: background-color 500ms ease-in-out, color 500ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out, transform 1000ms ease-in-out;
+  transition: background-color 500ms ease-in-out, color 500ms ease-in-out, transform 1000ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+  -webkit-transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, transform 1000ms ease-in-out;
+  transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, transform 1000ms ease-in-out, -webkit-transform 1000ms ease-in-out;
+}
+
+.toggle-button .toggle-icon.dark-mode {
+  -webkit-transform: translateX(19px);
+          transform: translateX(19px);
+  background-color: black;
+}
+
+.toggle-button.dark-mode {
+  background-color: #fff;
+}
+
+#mobile-toggle-button {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 36px;
+  width: 38px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 10vw;
+  right: 0;
+  border-radius: 7.5px;
+  border: 1px solid #f2eeee;
+  z-index: 2;
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+  top: 20px;
+  -webkit-transition: -webkit-transform ease-in-out 1000ms;
+  transition: -webkit-transform ease-in-out 1000ms;
+  transition: transform ease-in-out 1000ms;
+  transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+}
+
+#mobile-toggle-button .bars {
+  height: 4px;
+  width: 100%;
+  background: #f2eeee;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .toggle-button {
+    right: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #mobile-toggle-button {
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 36px;
+    width: 38px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 10vw;
+    right: 0;
+    border-radius: 7.5px;
+    border: 1px solid #f2eeee;
+    z-index: 2;
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+    top: 20px;
+    -webkit-transition: -webkit-transform ease-in-out 1000ms;
+    transition: -webkit-transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+  }
+  #mobile-toggle-button .bars {
+    height: 4px;
+    width: 100%;
+    background: #f2eeee;
+    border-radius: 10px;
+  }
+  .menu_inside {
+    position: absolute;
+    left: 5vw;
+  }
+  .menu_inside h1 {
+    margin-left: 10px;
+    font-size: 1.6rem;
+  }
+  .cli-logo {
+    height: 35px;
+    width: 35px;
+  }
+  nav:not(.mobile-nav) ul {
+    -webkit-transform: translateX(150%);
+            transform: translateX(150%);
+    -webkit-transition: -webkit-transform ease-in-out 1000ms;
+    transition: -webkit-transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+  }
+  nav.mobile-nav {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    background-color: var(--git-bg-color);
+    width: 90%;
+    height: calc(100vh - 80px);
+    height: 100vh;
+    -webkit-transition: -webkit-transform ease-in-out 1000ms;
+    transition: -webkit-transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+  }
+  nav.mobile-nav.active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: -webkit-transform ease-in-out 1000ms;
+    transition: -webkit-transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms;
+    transition: transform ease-in-out 1000ms, -webkit-transform ease-in-out 1000ms;
+  }
+  nav.mobile-nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: inherit;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav.mobile-nav.active ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: inherit;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav.mobile-nav ul li {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .toggle-button {
+    right: 12px;
+  }
+  .section-container {
+    width: 90%;
+  }
+  .git-details,
+  .emacs-details,
+  .vi-details {
+    padding: 80px 30px 40px 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .toggle-button {
+    width: 38px;
+    height: 20px;
+  }
+  .toggle-button .toggle-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .menu_inside h1 {
+    margin-left: 5px;
+  }
+  .cli-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .menu_inside h1 {
+    font-size: 25px;
+    font-size: 1.55rem;
+  }
+  .section-container {
+    width: 95%;
+  }
+  .git-details,
+  .emacs-details,
+  .vi-details {
+    padding: 80px 30px 40px 30px;
+  }
+}

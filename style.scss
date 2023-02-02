@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&family=Satisfy&family=Supermercado+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Kurenaido&display=swap");
+
+:root{
+    --ff-fancy-heading: 'Satisfy', cursive;
+    --ff-main-heading: 'Ubuntu', sans-serif;
+    --ff-header: 'Supermercado One', cursive;
+    --ff-body: 'Poppins', sans-serif;
+    --ff-others: 'Zen Kurenaido', sans-serif;
+    --git-color: #e63a17;
+    --git-bg-color: #F1502F;
+    --emacs-color: #4643ac;
+    --emacs-bg-color: #5E5BA8;
+    --vi-color: #00743e;
+    --vi-bg-color: #018749;
+
+}
+
+$ff-fancy-body: 'Quintessential', cursive;
+$ff-body: 'Poppins', sans-serif;
+$ff-main-heading: 'Oxanium', cursive;
+
+*,
+html,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@mixin center-horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin center-vertical{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}  
+
+@mixin position-vertical-center{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin position-horizontal-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #f2eeee;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 1000ms ease-in-out;
+    overflow-x: hidden
+}
+
+nav{
+    @include position-vertical-center;
+    right: calc(10vw - 12px);
+    
+    ul {
+        @include center-horizontal;
+        transform: translateX(0%);
+        transition: transform ease-in-out 1000ms;
+
+        li{
+            list-style: none;
+            font-family: $ff-main-heading;
+            font-weight: 600;
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: border 750ms ease-in-out, color 750ms ease-in-out;
+        }
+    }
+}
+
+nav ul li:hover,
+nav ul li:active{
+    border: 1px solid rgb(180, 164, 164);
+    color: rgb(180, 164, 164);
+}
+
+// nav{
+//     display: flex;
+// }
+
+// nav{
+//     transform: translateX(0%);
+//     transition: transform ease-in-out 1000ms;
+// }
+
+nav.mobile-nav{
+    transform: translateX(200%);
+}
+
+.container.dark-mode{
+    background-color: rgb(14, 13, 13);
+}
+
+.details{
+    transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, box-shadow 1000ms ease-in-out;
+}
+
+.details.dark-mode{
+    background-color: rgb(14, 13, 13);
+    background-color: #121212;
+    color: #f2eeee;
+}
+
+input{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out;
+}
+
+input.dark-mode{
+    background-color: #121212;
+    color: #f2eeee;
+}
+
+.search-command.dark-mode{
+    background-color: rgb(14, 13, 13);
+    background-color: #121212;
+    text-shadow: none;
+    color: #f2eeee;
+}
+
+.search-command.dark-mode:hover{
+    background-color: #121212;
+    color: #b4b4b4;
+}
+
+.cli-logo{
+    height: 45px;
+    width: 45px;
+}
+
+.menu{
+    background-color: var(--git-bg-color);
+    color: white;
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    box-shadow: 0px 1px 10px black;
+
+    &_inside{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+
+        h1{
+            margin-left: 20px;
+            font-family: var(--ff-fancy-heading);
+            font-family: var(--ff-main-heading);
+            font-style: italic;
+        }
+        
+    }
+}
+
+.menu_inside{
+    position: absolute;
+    left: 10vw;
+}
+
+.section-container{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: box-shadow ease-in-out 1000ms
+}
+
+.emacs-section,
+.vi-section,
+.git-section{
+    border-radius: 15px;
+}
+
+.git-section{
+    background-color: var(--git-bg-color);
+}
+
+.emacs-section{
+    background-color: var(--emacs-bg-color);
+}
+
+.vi-section{
+    background-color: var(--vi-bg-color);
+}
+
+.section-container.dark-mode{
+    box-shadow: 0px 0px 3px rgb(255, 73, 73);
+}
+
+.git-heading{
+    background-color: var(--git-bg-color);
+    h1{
+        color: var(--git-color);
+    }
+}
+
+.emacs-heading{
+    background-color: var(--emacs-bg-color);
+    h1{
+        color: var(--emacs-color);
+    }
+}
+
+.vi-heading {
+    background-color: var(--vi-bg-color);
+    h1{
+        color: var(--vi-color);
+    }
+}
+
+.git-heading,
+.emacs-heading,
+.vi-heading {
+    width: inherit;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    padding: 40px 0 140px;
+    h1{
+        font-size: 40px;
+        font-family: var(--ff-fancy-heading);
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        margin-top: -10px
+    }
+}
+
+.git-search-box,
+.emacs-search-box,
+.vi-search-box{
+    @include center-vertical;
+    margin-top: -120px;
+}
+
+input{
+    width: 70%;
+    padding: 12px;
+    border-radius: 6.5px;
+    outline: none;
+    font-size: 1.05rem;
+}
+
+button.git-search-command,
+button.emacs-search-command,
+button.vi-search-command{
+    margin: 13px 0;
+    padding: 17px 80px;
+    font-family: var(--ff-main-heading);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #f2eeee;
+    text-shadow: 1px 1px 1px white;
+}
+
+button.git-search-command{
+    color: var(--git-color);
+    border-bottom: 1px solid var(--git-color);
+}
+
+button.emacs-search-command{
+    color: var(--emacs-color);
+    border-bottom: 1px solid var(--emacs-color);
+}
+
+button.vi-search-command{
+    color: var(--vi-color);
+    border-bottom: 1px solid var(--vi-color);
+}
+
+button.git-search-command,
+button.emacs-search-command,
+button.vi-search-command{
+    transition: color ease-in-out 750ms, background ease-in-out 750ms;
+}
+
+button.git-search-command:hover,
+button.emacs-search-command:hover,
+button.vi-search-command:hover{
+    color: #000;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.git-details,
+.emacs-details,
+.vi-details{
+    background-color: white;
+    width: 100%;
+    padding: 80px 100px 40px 100px;
+    border-radius: 15px;
+    margin-top: -25px;
+    font-family: var(--ff-body);
+}
+
+.git-word,
+.git-usage,
+.emacs-word,
+.emacs-usage,
+.vi-word,
+.vi-usage{
+    font-family: var(--ff-main-heading);
+    font-family: $ff-main-heading;
+    margin: -30px 20px 20px 0;
+    font-weight: 700;
+}
+
+#git-word-meaning,
+#emacs-word-meaning,
+#vi-word-meaning{
+    line-height: 32px;
+}
+
+.git-usage,
+.emacs-usage,
+.vi-usage{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.git-usage-details,
+.emacs-usage-details,
+.vi-usage-details{
+    margin-bottom: 10px;
+    font-style: italic;
+    line-height: 32px;
+}
+
+.git-usage-details{
+    color: var(--git-color);
+}
+
+
+.git-usage-details.dark-mode{
+    color: rgb(255, 94, 0);
+}
+
+.emacs-usage-details{
+    color: var(--emacs-color);
+}
+
+.emacs-usage-details.dark-mode{
+    color: #8e8be0;
+}
+
+.vi-usage-details{
+    color: var(--vi-color);
+}
+
+.vi-usage-details.dark-mode{
+    color: rgb(56, 168, 66);
+}
+
+.git-usage-details-more,
+.emacs-usage-details-more,
+.vi-usage-details-more{
+    line-height: 30px;
+}
+
+.git-section.active{
+    display: block;
+}
+
+.git-section,
+.emacs-section,
+.vi-section{
+    display: none;
+}
+
+.git-section.show,
+.emacs-section.show,
+.vi-section.show{
+    display: block;
+}
+
+.ctrl_alt{
+    color: var(--git-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: color ease-in-out 1000ms;
+}
+
+.ctrl_alt.dark-mode{
+    color: rgb(167, 158, 158);
+}
+
+.toggle-button{
+    width: 45px;
+    height: 25px;
+    background-color: #000;
+    cursor: pointer;
+    right: 28px;
+    @include position-vertical-center;
+    border-radius: 22.5px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.4);
+    transition: background-color 1000ms ease-in-out;
+
+    .toggle-icon{
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: white;
+        top: 1.5px;
+        position: absolute;
+        left: 2px;
+        transition: background-color 500ms ease-in-out, color 500ms ease-in-out, transform 1000ms ease-in-out;
+        transition: background-color 1000ms ease-in-out, color 1000ms ease-in-out, transform 1000ms ease-in-out;
+    }
+
+    .toggle-icon.dark-mode{
+        transform: translateX(19px);
+        background-color: black;
+    }
+}
+
+.toggle-button.dark-mode{
+    background-color: #fff;
+}
+
+#mobile-toggle-button{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 36px;
+    width: 38px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    @include position-vertical-center;
+    right: 10vw;
+    right: 0;
+    border-radius: 7.5px;
+    border: 1px solid #f2eeee;
+    z-index: 2;
+    transform: translateX(150px);
+    top: 20px;
+    transition: transform ease-in-out 1000ms;        
+}
+
+#mobile-toggle-button .bars{
+    height: 4px;
+    width: 100%;
+    background: #f2eeee;
+    border-radius: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width:1000px){
+    .toggle-button{
+        right: 15px;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+
+    #mobile-toggle-button{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 36px;
+        width: 38px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        @include position-vertical-center;
+        right: 10vw;
+        right: 0;
+        border-radius: 7.5px;
+        border: 1px solid #f2eeee;
+        z-index: 2;
+        transform: translateX(-200%);
+        top: 20px;
+        transition: transform ease-in-out 1000ms;        
+    }
+
+    #mobile-toggle-button .bars{
+        height: 4px;
+        width: 100%;
+        background: #f2eeee;
+        border-radius: 10px;
+    }
+
+    .menu_inside{
+        position: absolute;
+        left: 5vw;
+
+        h1{
+            margin-left: 10px;
+            font-size: 1.6rem;
+        }
+    }
+
+    .cli-logo{
+        height: 35px;
+        width: 35px;
+    }
+
+    
+    
+    nav:not(.mobile-nav) ul{
+        transform: translateX(150%);
+        transition: transform ease-in-out 1000ms;
+    }
+
+    nav.mobile-nav{
+        transform: translateX(100%);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        display: block;
+        background-color: var(--git-bg-color);
+        width: 90%;
+        height: calc(100vh - 80px);
+        height: 100vh;
+        transition: transform ease-in-out 1000ms;
+    }
+
+    nav.mobile-nav.active{
+        transform: translateX(0%);
+        
+        transition: transform ease-in-out 1000ms;
+    }
+
+    nav.mobile-nav ul{
+        flex-direction: column;
+        height: inherit;
+        justify-content: space-evenly;
+    }
+
+    nav.mobile-nav.active ul{
+        flex-direction: column;
+        height: inherit;
+        justify-content: space-evenly;
+    }
+
+    nav.mobile-nav ul li {
+        font-size: 20px;
+        padding: 20px;
+      }
+
+    .toggle-button{
+        right: 12px;
+    }
+
+    .section-container{
+        width: 90%;
+    }
+
+    .git-details,
+    .emacs-details,
+    .vi-details{
+        padding: 80px 30px 40px 30px;
+    }
+}
+
+@media only screen and (max-width:500px){
+
+    .toggle-button{
+        width: 38px;
+        height: 20px;
+    
+        .toggle-icon{
+            width: 17px;
+            height: 17px;
+        }
+    }
+
+    .menu_inside h1{
+        margin-left: 5px;
+    }
+
+    .cli-logo{
+        height: 30px;
+        width: 30px;
+    }
+
+    .menu_inside h1{
+        font-size: 25px;
+        font-size: 1.55rem;
+    }
+
+    .section-container{
+        width: 95%;
+    }
+
+    .git-details,
+    .emacs-details,
+    .vi-details{
+        padding: 80px 30px 40px 30px;
+    }
+}
