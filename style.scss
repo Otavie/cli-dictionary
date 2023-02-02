@@ -95,14 +95,12 @@ nav ul li:active{
     color: rgb(180, 164, 164);
 }
 
-// nav{
-//     display: flex;
-// }
-
-// nav{
-//     transform: translateX(0%);
-//     transition: transform ease-in-out 1000ms;
-// }
+.git-item.active,
+.emacs-item.active,
+.vi-item.active{
+    border: 1px solid rgb(180, 164, 164);
+    color: rgb(180, 164, 164);
+}
 
 nav.mobile-nav{
     transform: translateX(200%);

@@ -87,6 +87,13 @@ nav ul li:active {
   color: #b4a4a4;
 }
 
+.git-item.active,
+.emacs-item.active,
+.vi-item.active {
+  border: 1px solid #b4a4a4;
+  color: #b4a4a4;
+}
+
 nav.mobile-nav {
   -webkit-transform: translateX(200%);
           transform: translateX(200%);

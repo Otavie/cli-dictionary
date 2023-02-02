@@ -190,7 +190,9 @@ const emacsSection = document.querySelector('.emacs-section');
 const viSection = document.querySelector('.vi-section');
 const menu = document.querySelector('.menu');
 const navMobileNav = document.querySelector('nav.mobile-nav');
-
+const gitItem = document.querySelector('.git-item');
+const emacsItem = document.querySelector('.emacs-item');
+const viItem = document.querySelector('.vi-item');
 
 function navFunction(){
     const sectionName = this.textContent.slice(1, -2);
@@ -200,16 +202,25 @@ function navFunction(){
     viSection.classList.remove('show')
 
     if(sectionName.includes('git')){
+        gitItem.classList.add('active');
+        emacsItem.classList.remove('active');
+        viItem.classList.remove('active');
         menu.style.backgroundColor = '#F1502F';
         gitSection.classList.add('show');
         navMobileNav.classList.remove('active');
         navMobileNav.style.backgroundColor = '#F1502F';
     } else if (sectionName.includes('emacs')){
+        emacsItem.classList.add('active');
+        gitItem.classList.remove('active');
+        viItem.classList.remove('active');
         menu.style.backgroundColor = '#5E5BA8';
         emacsSection.classList.add('show');
         navMobileNav.classList.remove('active');
         navMobileNav.style.backgroundColor = '#5E5BA8';
     }else if (sectionName.includes('vi')){
+        viItem.classList.add('active');
+        gitItem.classList.remove('active');
+        emacsItem.classList.remove('active');
         menu.style.backgroundColor = '#018749';
         viSection.classList.add('show');
         navMobileNav.classList.remove('active');
@@ -220,6 +231,10 @@ function navFunction(){
 navLists.forEach(navList =>{
     navList.addEventListener('click', navFunction)
 })
+
+// navUlLists.forEach(navList =>{
+//     navList.addEventListener('click', navFunction)
+// })
 
 const mobileToggleButton = document.getElementById('mobile-toggle-button');
 const mobileNav = document.querySelector('.mobile-nav')
