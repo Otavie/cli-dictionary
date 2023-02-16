@@ -9,6 +9,17 @@ This web app called [cli dictionary](https://otavie.github.io/cli-dictionary/) a
 - background color changes based on the three options you have
 - responsive for both mobile, tab and desktop usage
 
+### Challenge
+
+No major challenge!
+
+### Recommendation for Improvement:
+
+- linux commands can be added too
+- Machine Learning technique can be used to ensure you don't have to type the exact word you are looking for before the dictionary understands what you want
+
+========== xxxxxxxxxx ========== xxxxxxxxxx ========== xxxxxxxxxx ========== xxxxxxxxxx
+
 ### Author:
 
 Otavie Okuoyo
@@ -24,8 +35,3 @@ Just < 24 Hour for everything - the design and the writing of the codes
 ### Date:
 
 February 2, 2023
-
-### Recommendation for Improvement:
-
-- linux commands can be added too
-- Machine Learning technique can be used to ensure you don't have to type the exact word you are looking for before the dictionary understands what you want
