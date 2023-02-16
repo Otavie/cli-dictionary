@@ -50,6 +50,13 @@
       "usage_more": ""
     },
     {
+      "word": "pasting",
+      "title": "Paste",
+      "meaning": "To paste the lines in the buffer into the text after the current line.",
+      "usage": "p",
+      "usage_more": ""
+    },
+    {
       "word": "undo",
       "title": "Undo",
       "meaning": "To undo what you just did.",
@@ -71,24 +78,38 @@
       "usage_more": ""
     },
     {
+      "word": "yank",
+      "title": "Copy",
+      "meaning": "To copy text, place the cursor in the desired location and press the y key followed by the movement command. Below are some helpful yanking commands:",
+      "usage": "yy - Yank (copy) the current line, including the newline character.\n# 3yy - Yank (copy) three lines, starting from the line where the cursor is positioned.\n# y$ - Yank (copy) everything from the cursor to the end of the line.\n# y^ - Yank (copy) everything from the cursor to the start of the line.\n# yw - Yank (copy) to the start of the next word.\n# yiw – Yank (copy) the current word.\n# y% - Yank (copy) to the matching character. By default supported pairs are (), {}, and []. Useful to copy text between matching brackets.",
+      "usage_more": ""
+    },
+    {
+      "word": "yanking",
+      "title": "Copy",
+      "meaning": "To copy text, place the cursor in the desired location and press the y key followed by the movement command. Below are some helpful yanking commands:",
+      "usage": "yy - Yank (copy) the current line, including the newline character.\n# 3yy - Yank (copy) three lines, starting from the line where the cursor is positioned.\n# y$ - Yank (copy) everything from the cursor to the end of the line.\n# y^ - Yank (copy) everything from the cursor to the start of the line.\n# yw - Yank (copy) to the start of the next word.\n# yiw – Yank (copy) the current word.\n# y% - Yank (copy) to the matching character. By default supported pairs are (), {}, and []. Useful to copy text between matching brackets.",
+      "usage_more": ""
+    },
+    {
       "word": "quit",
       "title": "Quit/Exiting/Leaving",
-      "meaning": "Different quit commands in vi",
-      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "meaning": "Different quit commands in Vi",
+      "usage": "# :x - quit Vi, writing out modified file to file named in original invocation.\n# :qw - quit Vi, writing out modified file to file named in original invocation (that is, save changes and quit Vi).\n# :q - quit(exit) Vi\n# :q! - quit Vi even though latest changes have not been saved for this Vi call",
       "usage_more": ""
     },
     {
       "word": "leave",
       "title": "Quit/Exiting/Leaving",
-      "meaning": "Different quit commands in vi",
-      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "meaning": "Different quit commands in Vi",
+      "usage": "# :x - quit Vi, writing out modified file to file named in original invocation.\n# :qw - quit Vi, writing out modified file to file named in original invocation (that is, save changes and quit Vi).\n# :q - quit(exit) Vi\n# :q! - quit Vi even though latest changes have not been saved for this Vi call",
       "usage_more": ""
     },
     {
       "word": "exit",
       "title": "Quit/Exiting/Leaving",
-      "meaning": "Different quit commands in vi",
-      "usage": "# :x - quit vi, writing out modified file to file named in original invocation.\n# :q - quit vi, writing out modified file to file named in original invocation.\n# :q - quit(exit) vi\n# :q! - quit vi even though latest changes have not been saved for this vi call",
+      "meaning": "Different quit commands in Vi",
+      "usage": "# :x - quit Vi, writing out modified file to file named in original invocation.\n# :qw - quit Vi, writing out modified file to file named in original invocation (that is, save changes and quit Vi).\n# :q - quit(exit) Vi\n# :q! - quit Vi even though latest changes have not been saved for this Vi call",
       "usage_more": ""
     },
     {

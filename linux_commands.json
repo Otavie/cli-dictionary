@@ -1,0 +1,234 @@
+{
+  "words": [
+    {
+      "word": "delete",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "del",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "delete file",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "delete directory",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "rm",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "rmdir",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "del file",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+    {
+      "word": "del dir",
+      "title": "Delete",
+      "meaning": "Delete File/Directory",
+      "usage": "# rm - delete one or more files or directories.\n>> rm <file.txt>\n>> rm -i file_1 file_2 file_3 - the rm with the -i option is used to confirm each file before deleting it.\n# rmdir (remove directory) - deletes an empty directory\n>> rmdir <directory_name>\n# rm -rf (force remove) - deletes files and directories, including all of their contents, without prompting for confirmation.\n >> rm -rf <directory_name>",
+      "usage_more": ">> rm *.pdf\n -> The above command deletes all '.pdf' files.\n + To remove non-empty directories and all the files within them, use the rm command with the-r (recursive) option. If a directory or a file within the directory is write-protected, you will be prompted to confirm the deletion.\n + To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options."
+    },
+
+
+
+    {
+      "word": "ls",
+      "title": "List",
+      "meaning": "List files and/or directories",
+      "usage": "# ls - lists all the files and directories in the current working directory.\n# ls -l - displays the files and directories in a long format that includes information such as file permissions, ownership, size, and modification time.\n# ls -a - displays hidden files and directories, which are files and directories that start with a dot (.)\n# ls -la - display both hidden and long format information about the files and directories.\n# ls-t -  sorts the files and directories by modification time, with the most recently modified files and directories appearing first.\n# ls -r - reverses the order of the files and directories so that they are listed in reverse order.\n# ls -R - recursively lists the contents of subdirectories in the current directory.\n# ls -h - displays file sizes in a human-readable format, with sizes in kilobytes, megabytes, or gigabytes as appropriate.",
+      "usage_more": ""
+    },
+    {
+      "word": "list",
+      "title": "List",
+      "meaning": "List files and/or directories",
+      "usage": "# ls - lists all the files and directories in the current working directory.\n# ls -l - displays the files and directories in a long format that includes information such as file permissions, ownership, size, and modification time.\n# ls -a - displays hidden files and directories, which are files and directories that start with a dot (.)\n# ls -la - display both hidden and long format information about the files and directories.\n# ls-t -  sorts the files and directories by modification time, with the most recently modified files and directories appearing first.\n# ls -r - reverses the order of the files and directories so that they are listed in reverse order.\n# ls -R - recursively lists the contents of subdirectories in the current directory.\n# ls -h - displays file sizes in a human-readable format, with sizes in kilobytes, megabytes, or gigabytes as appropriate.",
+      "usage_more": ""
+    },
+
+
+
+    {
+      "word": "cd",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "directory change",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "change directory",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "change folder",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "change dir",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "cd dir",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "cd /root",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "directory",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+    {
+      "word": "dir",
+      "title": "Change Directory",
+      "meaning": "Change Directory",
+      "usage": "# cd -  changes the current working directory to the user's home directory.\n# cd /root - changes the current working directory to the root directory.\n# cd / - changes the current working directory to the root directory.\n# cd .. - moves to the parent directory of the current working directory.\n# cd - - switches between the current working directory and the previous working directory.\n# cd directory_name - changes the current working directory to the specified directory.\n# cd ~/directory_name - changes the current working directory to a directory in the user's home directory.\n# cd $(command) - changes the current working directory to the directory specified by the output of the command.",
+      "usage_more": ""
+    },
+
+
+
+
+
+    {
+      "word": "git commit",
+      "title": "git commit",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git commit -m 'commit message'",
+      "usage_more": "Where -m option is used to specify the commit message, which should be a brief description of the changes made in the commit."
+    },
+    {
+      "word": "commit",
+      "title": "git commit",
+      "meaning": "Push changes from the local repository to a remote repository.",
+      "usage": "git commit -m 'commit message'",
+      "usage_more": "Where -m option is used to specify the commit message, which should be a brief description of the changes made in the commit."
+    },
+    {
+      "word": "git status",
+      "title": "git status",
+      "meaning": "Show the status of files in the working tree and the index.",
+      "usage": "git status",
+      "usage_more": ""
+    },
+    {
+      "word": "status",
+      "title": "git status",
+      "meaning": "Show the status of files in the working tree and the index.",
+      "usage": "git status",
+      "usage_more": ""
+    },
+    {
+      "word": "add",
+      "title": "git add",
+      "meaning": "Add a file to the Git index (staging area).",
+      "usage": "git add <name of file>",
+      "usage_more": "git add . can be used to stage all files at once"
+    },
+    {
+      "word": "git add",
+      "title": "git add",
+      "meaning": "Add a file to the Git index (staging area).",
+      "usage": "git add <name of file>",
+      "usage_more": "git add . can be used to stage all files at once"
+    },
+    {
+      "word": "checkout",
+      "title": "git checkout",
+      "meaning": "git checkout is used to switch between branches or restore files in your working directory to a specific version.",
+      "usage": "# git checkout <branch>\n# git checkout master\n# git checkout <commit_hash> -- <file_path>",
+      "usage_more": "# git checkout <branch> - Switches to the specified <branch>.\n# git checkout master - Switches to the master branch.\n# git checkout <commit_hash> -- <file_path> - It updates the specified file in your working directory to match the version stored in the specified commit.\nWhere:\n+ <commit_hash> - the identifier of the commit that contains the version of the file you want to restore\n+ <file_path> - the path to the file you want to restore."
+    },
+    {
+      "word": "git checkout",
+      "title": "git checkout",
+      "meaning": "Switches to a different branch.",
+      "usage": "# git checkout <branch>\n# git checkout master\n# git checkout <commit_hash> -- <file_path>",
+      "usage_more": "# git checkout <branch> - Switches to the specified <branch>.\n# git checkout master - Switches to the master branch.\n# git checkout <commit_hash> -- <file_path> - It updates the specified file in your working directory to match the version stored in the specified commit.\nWhere:\n+ <commit_hash> - the identifier of the commit that contains the version of the file you want to restore\n+ <file_path> - the path to the file you want to restore."
+    },
+    {
+      "word": "setup",
+      "title": "What kind of setup?",
+      "meaning": "If you are looking for git setup search 'git setup'. If you are looking for emacs setup search for 'emacs setup'",
+      "usage": "",
+      "usage_more": ""
+    },
+    {
+      "word": "set up",
+      "title": "What kind of setup?",
+      "meaning": "If you are looking for git setup search 'git setup'. If you are looking for emacs setup search for 'emacs setup'",
+      "usage": "",
+      "usage_more": ""
+    },
+    {
+      "word": "branch",
+      "title": "git branch",
+      "meaning": "# git branch - List all branches in the repository\n# git branch [branch-name] - Create a new branch with the specified name\n# git checkout [branch-name] - Switch to the specified branch\n# git checkout -b [branch-name] - Create a new branch and switch to it in one command\n# git merge [branch-name] - Merge the specified branch into the current branch\n# git branch -d [branch-name] - Delete the specified branch\n# git branch -m [new-branch-name] - Rename the current branch to a new name\n# git branch -r - List all the remote branches in a git repo. This is help because it allows you to see the branches other contributors have created or pushed into the remote repo\n# git branch --no-merged - Show a list of branches that haven't been merged into the current branch\n# git branch -a - List all branches in the repository, including remote branches",
+      "usage": "As shown above",
+      "usage_more": ""
+    },
+    {
+      "word": "git branch",
+      "title": "git branch",
+      "meaning": "# git branch - List all branches in the repository\n# git branch [branch-name] - Create a new branch with the specified name\n# git checkout [branch-name] - Switch to the specified branch\n# git checkout -b [branch-name] - Create a new branch and switch to it in one command\n# git merge [branch-name] - Merge the specified branch into the current branch\n# git branch -d [branch-name] - Delete the specified branch\n# git branch -m [new-branch-name] - Rename the current branch to a new name\n# git branch --no-merged - Show a list of branches that haven't been merged into the current branch\n# git branch -a - List all branches in the repository, including remote branches",
+      "usage": "As shown above",
+      "usage_more": ""
+    }
+  
+  
+  ]
+}

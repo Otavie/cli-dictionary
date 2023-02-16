@@ -144,7 +144,7 @@
         "word": "cut",
         "title": "Cut",
         "meaning": "To cut a file.",
-        "usage": "C-w",
+        "usage": "# C-w - to cut a file.\n# C-a C-k - to cut an entire line.",
         "usage_more": ""
       },
       {
@@ -187,6 +187,13 @@
         "title": "Quit and Save",
         "meaning": "This will save all unsaved changes and then quit the program.",
         "usage": "M-x save-buffers-kill-emacs",
+        "usage_more": ""
+      },
+      {
+        "word": "open",
+        "title": "Open a file",
+        "meaning": "To open a file.",
+        "usage": "C-x C-f",
         "usage_more": ""
       }
       
