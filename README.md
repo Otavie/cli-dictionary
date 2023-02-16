@@ -1,4 +1,6 @@
-# DICTIONARY FOR COMMANDS USED IN COMMAND LINE INTERFACE (CLI)
+# CLI DICTIONARY
+
+## DICTIONARY FOR COMMANDS USED IN COMMAND LINE INTERFACE (CLI)
 
 This web app called [cli dictionary](https://otavie.github.io/cli-dictionary/) a web app project for finding the meaning of commands in git, emacs and vi. It has a simple and beautifully designed interface. Some highlighted features of the project:
 
