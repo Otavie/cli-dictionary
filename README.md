@@ -1,37 +1,51 @@
-# CLI DICTIONARY
+# COMMAND LINE INTERFACE (CLI) DICTIONARY APP
 
-## DICTIONARY FOR COMMANDS USED IN COMMAND LINE INTERFACE (CLI)
+The Command Line Interface (CLI) Dictionary is a web-based app designed to assist users in searching for the meanings of frequently used commands and terms in shell environments and text editors. This app features a comprehensive list of commands utilized in vi, emacs, and git. The app provides a quick and easy way for users to access the definitions of frequently used commands and terms without leaving their terminal.
 
-This web app called [cli dictionary](https://otavie.github.io/cli-dictionary/) a web app project for finding the meaning of commands in git, emacs and vi. It has a simple and beautifully designed interface. Some highlighted features of the project:
+## Features
 
-- has a dark mode button
-- simple and beautiful interface and logo
-- background color changes based on the three options you have
-- responsive for both mobile, tab and desktop usage
+- Definition lookup for frequently used commands and terms in shell environments and text editors
+- Lookup for usage of these commands.
+- List of commands utilized in vi, emacs, and git
+- Cross-platform compatibility for Windows, macOS, and Linux systems
+- Switchable from night to day mode and vice versa
+- Background color changes based on the menu item one clicked on
+- Responsive for both mobile, tab and desktop devices
 
-### Challenge
+## Recommendation for Improvement:
 
-No major challenge!
-
-### Recommendation for Improvement:
-
-- linux commands can be added too
+- Linux commands can be added too
 - Machine Learning technique can be used to ensure you don't have to type the exact word you are looking for before the dictionary understands what you want
 
-========== xxxxxxxxxx ========== xxxxxxxxxx ========== xxxxxxxxxx ========== xxxxxxxxxx
+## Technologies Used
 
-### Author:
+This app was built using the following technologies:
 
-Otavie Okuoyo
+- HTML, (S)CSS and JavaScript
+- JSON
 
-### Tools Used:
+## Usage
 
-HTML | CSS | and JavaScript
+Click [CLI Dictionary](https://otavie.github.io/cli-dictionary/) to open the app and start using it. The home screen displays a search box where a command can be entered and searched. Additionally, the app includes three distinct menu items that allow users to easily switch between the search interfaces for git, emacs and vi commands and terms.
 
-### Project Duration:
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+- Fork this repository.
+- Create a new branch for your changes.
+- Make your changes and commit them with descriptive commit messages.
+- Push your changes to your forked repository.
+- Open a pull request to this repository with a detailed description of your changes.
+
+## Credits
+
+This app was developed by [Otavie Okuoyo](https://github.com/Otavie) and is licensed under no License.
+
+## Duration of Project:
 
 Just < 24 Hour for everything - the design and the writing of the codes
 
-### Date:
+## Date:
 
-February 2, 2023
+Thursday, February 2, 2023
