@@ -40,7 +40,7 @@ If you would like to contribute to this project, please follow these steps:
 
 ## Credits
 
-This app was developed by [Otavie Okuoyo](https://github.com/Otavie) and is licensed under no License.
+This app was developed by [Otavie Okuoyo](https://github.com/Otavie) and is under no license.
 
 ## Duration of Project:
 
